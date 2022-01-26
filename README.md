@@ -4,7 +4,7 @@
 
 Project 1 :
  Find active servers
-  1. Hit localhost:3000/api/serverstatus will give you status of listed servers
+  1. Hit http://localhost:3000/api/serverstatus will give you status of listed servers
      [
      {
       "url": "http://doesNotExist.boldtech.co",
@@ -31,8 +31,8 @@ Project 1 :
       "priority": 2
     }
     ]
-  2. Hit localhost:3000/api/findserver will render the online server with least priority if not will display offline status
+  2. Hit http://localhost:3000/api/findserver will render the online server with least priority if not will display offline status
 
 Project 2:
   Autocomplete search 
-  1. Hit localhost:3000/index.html for autocomplete
+  1. Hit http://localhost:3000/index.html for autocomplete
