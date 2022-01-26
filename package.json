@@ -20,9 +20,20 @@
     "test:e2e": "jest --config ./test/jest-e2e.json"
   },
   "dependencies": {
+    "@elastic/elasticsearch": "^7.16.0",
+    "@nestjs/axios": "^0.0.5",
     "@nestjs/common": "^8.1.1",
     "@nestjs/core": "^8.1.1",
+    "@nestjs/elasticsearch": "^8.0.0",
     "@nestjs/platform-express": "^8.1.1",
+    "@nestjs/serve-static": "^2.2.2",
+    "@types/elasticsearch": "^5.0.40",
+    "axios": "^0.25.0",
+    "elasticsearch": "^16.7.2",
+    "hbs": "^4.2.0",
+    "n-gram": "^2.0.1",
+    "node-fetch": "^3.2.0",
+    "ping": "^0.4.1",
     "reflect-metadata": "^0.1.13",
     "rimraf": "^3.0.2",
     "rxjs": "^7.4.0"
